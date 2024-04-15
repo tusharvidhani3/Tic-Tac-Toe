@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+.boardLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start {
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: red;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.board {
+    display: grid;
+    margin: 30px;
+}
+.board div {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid black;
+}
+.start:hover{
+    background-color: seagreen;
+}
+
+.boardLayout img {
+    width: 60px;
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arrow {
+    cursor: pointer;
+}

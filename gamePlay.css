@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    display: grid;
+    background-color: greenyellow;
+}
+.board div {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.state {
+    background-color: burlywood;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+    margin: 1%;
+}
+
+.restart {
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px ;
+    padding: 5px;
+    cursor: pointer;
+    visibility: hidden;
+    box-shadow: 2px;
+    background-color: red;
+    box-shadow: 5px 5px;
+}
+.restart:hover {
+    background-color: aquamarine;
+    box-shadow: 0 0;
+}
